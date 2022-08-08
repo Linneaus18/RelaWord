@@ -1,0 +1,13 @@
+<view class="line-block">
+  <view class="line-txt">词语一：</view>
+  <input class="line-select" placeholder="词语一" placeholder-style="color:#949494;" bindinput="bindKeyInputWord1" />
+</view>
+
+<view class="line-block">
+  <view class="line-txt">词语二：</view>
+  <input class="line-select" placeholder="词语一的近义词" placeholder-style="color:#949494;" bindinput="bindKeyInputWord2" />
+</view>
+
+<view class="line-button">
+  <button class="submit" style="width:90%; height:100rpx; line-height:100rpx; margin-left:5%; margin-right:5%;padding:0rpx;" bindtap="addClick">添加词语</button>
+</view>
